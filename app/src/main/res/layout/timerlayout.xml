@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/timerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timerTxView"
+        android:text="study assembly"
+        android:textSize="20dp"
+        android:layout_marginLeft="63dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timerTxView">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="63dp"
+        android:layout_height="49dp"
+        android:src="@drawable/bomb_explode" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/clockTxView"
+        android:text="00:00:00"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="30dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
