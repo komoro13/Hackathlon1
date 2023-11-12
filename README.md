@@ -1,4 +1,4 @@
-# Hackathlon1
+# TNTime
 
 The concept of the app is to remind you about tasks in an exciting and game-like manner
 and help people that struggle with short term memory. The user has to set one or multiple 
